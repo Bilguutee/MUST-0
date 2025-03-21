@@ -30,7 +30,7 @@ void selectionSort(int arr[], int n) {
     }
 }
 
-// **Хөөсөрүүлэх эрэмбэлэх алгоритм**
+// **Bubble эрэмбэлэх алгоритм**
 void bubbleSort(int arr[], int n) {
     comparisons = swaps = 0; // Тоонуудыг эхлүүлнэ
 
@@ -90,7 +90,7 @@ int main() {
     printArray(arr1, n);
     printf("Харьцуулалт: %d, Шилжилт: %d\n", comparisons, swaps);
 
-    // **Хөөсөрүүлэх эрэмбэлэх**
+    // **Bubble эрэмбэлэх**
     bubbleSort(arr2, n);
     printf("\nХөөсөрүүлэх эрэмбэлэх:\n");
     printArray(arr2, n);
